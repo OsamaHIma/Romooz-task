@@ -1,0 +1,81 @@
+.gym-bg {
+    background: url("../assets/images/gym_back.jpg") !important;
+    background-position: center;
+    background-size: cover;
+}
+.home {
+    height: 400px;
+    position: relative;
+
+    .title {
+        background-color: rgba(0, 0, 0, 0.514);
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        padding: 40px 20px;
+        width: 35%;
+        text-align: center;
+        line-height: 70px;
+
+        h1 {
+            color: #fff;
+        }
+    }
+}
+.details-title h3 {
+    color: #c39f5f;
+}
+.details-prag p {
+    color: #e9e6e6;
+    font-size: 15px;
+}
+.btn {
+    background-color: #c39f5f;
+    color: #000;
+    width: 80%;
+    margin: auto;
+    border-radius: 3px;
+}
+.machine-prag p {
+    color: #fff;
+}
+
+.col-lg-6 .d-flex {
+    background: #292929;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.icon-img {
+    width: 50%;
+}
+.icon-img img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 50%;
+}
+
+.machine-prag {
+    padding-right: 10px;
+}
+
+.machine-prag h4 {
+    font-size: 16px;
+    color: #c39f5f;
+}
+.learn-more {
+    background: #c39f5f;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+.btn-details {
+    outline: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.learn-more-details p {
+    font-weight: bold;
+}

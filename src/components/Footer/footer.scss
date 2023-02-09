@@ -1,0 +1,39 @@
+footer {
+    .logo {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #c39f5f;
+    }
+    background: #f1f1f1;
+    padding-top: 30px;
+    .fa-brands {
+        font-size: 20px;
+        &:hover {
+            color: #c39f5f;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        li > a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 600 !important;
+            color: #000;
+            &.active,
+            &:hover {
+                border-bottom: 2px solid #c39f5f;
+            }
+        }
+    }
+    .icons a {
+        color: #fff;
+        margin-left: 10px;
+    }
+    .rights-footer {
+        background: #333;
+        padding: 5px 0;
+        color: #c39f5f;
+    }
+}
