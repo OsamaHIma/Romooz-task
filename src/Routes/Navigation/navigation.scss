@@ -8,9 +8,10 @@ nav {
     padding: 10px 0;
     .nav-link {
         color: #fff;
+        border-bottom: 2px solid transparent;
         &.active,
         &:hover {
-            border-bottom: 1px solid #c39f5f;
+            border-color: #c39f5f;
         }
     }
     .dropdown-item {
