@@ -24,14 +24,14 @@
         top: -17px;
         border-radius: 3px;
         &.right {
-            right: -45px;
+            right: -20px;
         }
         &.left {
-            left: -45px;
+            left: -20px;
         }
     }
 }
-@media (max-width: 532px) {
+@media (max-width: 578px) {
     .about-us-img {
         overflow-x: hidden;
     }
