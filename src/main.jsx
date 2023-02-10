@@ -11,3 +11,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </React.StrictMode>
 );
+console.log(`%cDon't worry every thing is under control 🦾`,"color: #30ff8d")

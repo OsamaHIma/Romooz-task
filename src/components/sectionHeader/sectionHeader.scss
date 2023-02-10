@@ -1,0 +1,36 @@
+.gym-bg {
+    background: url(/images/gym_back.jpg) !important;
+}
+.restaurant-bg {
+    background: url(/images/restaurant-interior.jpg) !important;
+}
+.coffe-bg {
+    background: url(/images/coffe.jpg) !important;
+}
+.contact-bg {
+    background: url(/images/coffe.jpg) !important;
+}
+.projects-bg {
+    background: url(/images/building.jpg) !important;
+}
+
+.home {
+    background-position: center;
+    background-size: cover !important;
+    height: 400px;
+    position: relative;
+    .title {
+        background-color: rgba(0, 0, 0, 0.514);
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        padding: 40px 20px;
+        width: 35%;
+        text-align: center;
+        line-height: 70px;
+
+        h1 {
+            color: #fff;
+        }
+    }
+}

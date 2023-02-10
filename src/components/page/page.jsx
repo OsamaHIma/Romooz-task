@@ -1,20 +1,18 @@
 import "./page.scss";
+import { Link } from "react-router-dom";
+import SectionHeading from "../sectionHeader/sectionsHeader";
 const Page = ({ mainText, bgType, imageUrl }) => {
   return (
     <>
-      <div class={`main-bg ${bgType} home`}>
-        <div class="title">
-          <h1>{mainText}</h1>
-        </div>
-      </div>
-      <div class="contact_us">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10">
-              <div class="details-title">
+      <SectionHeading bgType={bgType} mainText={mainText} />
+      <div className="contact_us my-4">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10">
+              <div className="details-title">
                 <h3>عنوان</h3>
               </div>
-              <div class="details-prag">
+              <div className="details-text">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
                   totam voluptatibus sapiente ea dignissimos, quod quibusdam
@@ -23,35 +21,38 @@ const Page = ({ mainText, bgType, imageUrl }) => {
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
-            <button class="btn">اتصل بنا </button>
+          <div className="col-lg-2">
+            <Link className="btn" to={"/contact-us"}>
+              اتصل بنا
+            </Link>
           </div>
         </div>
       </div>
-      <div class="gym-machine my-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="d-flex justify-content-between rounded">
-                <div class="icon-img">
+      <div className="gym-machine my-4">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="d-flex justify-content-between rounded">
+                <div className="icon-img">
                   <img src={imageUrl} alt="" />
                 </div>
-                <div class="machine-prag">
+                <div className="machine-text">
                   <h4>Lorem, ipsum dolor.</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Libero architecto odit sit neque cumque explicabo.
+                    Libero architecto odit sit neque cumque explicabo. Lorem
+                    ipsum dolor sit amet.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <div class="d-flex justify-content-between rounded">
-                <div class="icon-img">
+            <div className="col-lg-6">
+              <div className="d-flex justify-content-between rounded">
+                <div className="icon-img">
                   <img src={imageUrl} alt="" />
                 </div>
-                <div class="machine-prag">
+                <div className="machine-text">
                   <h4>Lorem, ipsum dolor.</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,12 +63,12 @@ const Page = ({ mainText, bgType, imageUrl }) => {
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <div class="d-flex justify-content-between rounded">
-                <div class="icon-img">
+            <div className="col-lg-6">
+              <div className="d-flex justify-content-between rounded">
+                <div className="icon-img">
                   <img src={imageUrl} alt="" />
                 </div>
-                <div class="machine-prag">
+                <div className="machine-text">
                   <h4>Lorem, ipsum dolor.</h4>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -78,12 +79,12 @@ const Page = ({ mainText, bgType, imageUrl }) => {
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <div class="d-flex justify-content-between rounded">
-                <div class="icon-img">
-                  <img src={imageUrl} alt=""/>
+            <div className="col-lg-6">
+              <div className="d-flex justify-content-between rounded">
+                <div className="icon-img">
+                  <img src={imageUrl} alt="" />
                 </div>
-                <div class="machine-prag">
+                <div className="machine-text">
                   <h4>Lorem, ipsum dolor.</h4>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -96,14 +97,14 @@ const Page = ({ mainText, bgType, imageUrl }) => {
           </div>
         </div>
       </div>
-      <div class="contact_us">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10">
-              <div class="details-title">
+      <div className="contact_us">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10">
+              <div className="details-title">
                 <h3>عنوان</h3>
               </div>
-              <div class="details-prag">
+              <div className="details-text">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
                   totam voluptatibus sapiente ea dignissimos, quod quibusdam
@@ -114,13 +115,16 @@ const Page = ({ mainText, bgType, imageUrl }) => {
           </div>
         </div>
       </div>
-      <div class="learn-more">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-              <div class="learn-more-details">
-                <p>اعرف المزيد </p>
-                <button class="btn-details">Contact us</button>
+      <div className="learn-more">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 text-center">
+              <div className="learn-more-details">
+                <p>اعرف اكثر عن خدماتنا في {mainText} </p>
+                <Link className="btn-details mx-auto" to={"/contact-us"}>
+                  <i className="fas fa-arrow-right ms-3"></i>
+                  Contact us
+                </Link>
               </div>
             </div>
           </div>

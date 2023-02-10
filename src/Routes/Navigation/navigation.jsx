@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Footer from "../../components/Footer/footer";
 import "./navigation.scss";
 const Navigation = () => {
@@ -62,6 +62,35 @@ const Navigation = () => {
                     اتصل بنا
                   </NavLink>
                 </li>
+
+                <li className="nav-item dropdown mx-3">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    التجهيزات
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li className="nav-item">
+                      <NavLink className="dropdown-item" to={"/gym"}>
+                        تجهيز صالات الجيم
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink className="dropdown-item" to={"/kitchens"}>
+                        تجهيز المطاعم
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink className="dropdown-item" to={"/cafes"}>
+                        تجهيز الكافيهات
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -75,7 +104,7 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-      <Footer/>
+      <Footer />
     </>
   );
 };

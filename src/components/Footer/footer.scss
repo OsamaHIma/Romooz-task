@@ -9,8 +9,10 @@ footer {
     padding-top: 30px;
     .fa-brands {
         font-size: 20px;
+        color: #c39f5f;
+        padding: 3px;
         &:hover {
-            color: #c39f5f;
+            color: #444;
         }
     }
     ul {
@@ -35,5 +37,14 @@ footer {
         background: #333;
         padding: 5px 0;
         color: #c39f5f;
+    }
+}
+@media (max-width: 425px) {
+    footer ul.main-menu {
+        flex-direction: column;
+        align-items: center;
+        li {
+            margin: 10px 0;
+        }
     }
 }
