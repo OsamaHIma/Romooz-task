@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <SectionHeading mainText={"المشاريع"} bgType={"projects-bg"} />
-      <div className="container pt-3">
+      <div className="container-fluid mt-5">
         <div className="row g-0">
           <div className="col-md-3 my-1">
             <div className="project-img my-4">
@@ -18,10 +18,12 @@ const Projects = () => {
               </p>
               <div className="d-flex">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  quisquam incidunt illum perferendis eaque amet dolorum
-                  corporis quaerat magnam rerum, accusantium cumque, voluptatem
-                  voluptas tenetur.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laboriosam esse odio soluta autem, culpa quaerat ipsa
+                  quis, ea, sed minus. Quidem accusantium fugit laboriosam qui
+                  inventore, quam, impedit consequuntur reprehenderit officia
+                  explicabo maiores autem sed debitis. Similique, earum cumque.
+                  Lorem ipsum dolor sit amet.
                 </p>
                 <button className="btn mx-2">صور المشاريع</button>
               </div>
@@ -40,9 +42,12 @@ const Projects = () => {
               </p>
               <div className="d-flex">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                  atque, ab inventore illum consequatur facilis porro ut
-                  dolorem, doloribus consequuntur, cumque ex enim ratione animi.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laboriosam esse odio soluta autem, culpa quaerat ipsa
+                  quis, ea, sed minus. Quidem accusantium fugit laboriosam qui
+                  inventore, quam, impedit consequuntur reprehenderit officia
+                  explicabo maiores autem sed debitis. Similique, earum cumque.
+                  Lorem ipsum dolor sit amet.
                 </p>
                 <button className="btn mx-2">صور المشاريع</button>
               </div>
@@ -61,10 +66,12 @@ const Projects = () => {
               </p>
               <div className="d-flex">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Animi ex maiores, tenetur pariatur minus dolore possimus rem
-                  cumque laborum repellat fugit suscipit magnam, doloremque
-                  commodi!
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laboriosam esse odio soluta autem, culpa quaerat ipsa
+                  quis, ea, sed minus. Quidem accusantium fugit laboriosam qui
+                  inventore, quam, impedit consequuntur reprehenderit officia
+                  explicabo maiores autem sed debitis. Similique, earum cumque.
+                  Lorem ipsum dolor sit amet.
                 </p>
                 <button className="btn mx-2">صور المشاريع</button>
               </div>
@@ -83,10 +90,12 @@ const Projects = () => {
               </p>
               <div className="d-flex">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Neque omnis possimus voluptate esse itaque alias non, laborum,
-                  doloribus ipsum recusandae amet dolor tempore. Doloribus,
-                  ratione?
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laboriosam esse odio soluta autem, culpa quaerat ipsa
+                  quis, ea, sed minus. Quidem accusantium fugit laboriosam qui
+                  inventore, quam, impedit consequuntur reprehenderit officia
+                  explicabo maiores autem sed debitis. Similique, earum cumque.
+                  Lorem ipsum dolor sit amet.
                 </p>
                 <button className="btn mx-2">صور المشاريع</button>
               </div>
@@ -105,10 +114,12 @@ const Projects = () => {
               </p>
               <div className="d-flex">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit libero exercitationem assumenda magni?
-                  Reiciendis cupiditate laborum vel alias autem, nihil
-                  dignissimos placeat aperiam labore. Cum.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laboriosam esse odio soluta autem, culpa quaerat ipsa
+                  quis, ea, sed minus. Quidem accusantium fugit laboriosam qui
+                  inventore, quam, impedit consequuntur reprehenderit officia
+                  explicabo maiores autem sed debitis. Similique, earum cumque.
+                  Lorem ipsum dolor sit amet.
                 </p>
                 <button className="btn mx-2">صور المشاريع</button>
               </div>

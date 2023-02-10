@@ -22,7 +22,7 @@ const Page = ({ mainText, bgType, imageUrl }) => {
             </div>
           </div>
           <div className="col-lg-2">
-            <Link className="btn" to={"/contact-us"}>
+            <Link className="btn w-100 mt-2" to={"/contact-us"}>
               اتصل بنا
             </Link>
           </div>

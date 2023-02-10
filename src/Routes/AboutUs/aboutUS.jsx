@@ -3,7 +3,7 @@ import "./aboutUs.scss";
 const AboutUs = () => {
   return (
     <>
-      <SectionHeading mainText={"من نحن"} bgType={"gym-bg"} />
+      <SectionHeading mainText={"من نحن"} bgType={"restaurant-bg"} />
       <div className="container about-us">
         <div className="row py-5">
           <div className="col-md-7">
