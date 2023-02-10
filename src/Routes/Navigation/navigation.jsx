@@ -65,7 +65,7 @@ const Navigation = () => {
 
                 <li className="nav-item dropdown mx-3">
                   <a
-                    className="nav-link dropdown-toggle"
+                    className="nav-link text-center dropdown-toggle"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
