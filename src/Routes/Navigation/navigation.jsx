@@ -19,7 +19,7 @@ const Navigation = () => {
             Tarkez
           </Link>
           <div
-            className="offcanvas offcanvas-end  w-100 text-bg-dark"
+            className="offcanvas offcanvas-end text-bg-dark"
             tabIndex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
